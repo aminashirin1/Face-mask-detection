@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,600&family=Righteous&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #A3C9D9;
+    margin: 3em 5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 60%;
+}
+
+.logo *{
+    max-width: 13em;
+}
+
+.header .navbar{
+    width: 35%;
+    display: flex;
+}
+
+.navbar .nav-list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-list .nav-item{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.nav-item:nth-child(3){
+    background-color: #fff;
+    padding: 0.4em 1em;
+    border-radius: 25px;
+}
+
+/* Body */
+
+.main-section{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4em 0;
+}
+
+.caption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 74%;
+    text-align: center;
+}
+
+.caption p{
+    font-size: 5em;
+    line-height: 1.1em;
+}
+
+.caption p span{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.btn-holder button{
+    width: 25vw;
+    height: 3em;
+    font-size: 2em;
+    border-radius: 40px;
+    border: none;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px rgba(255, 255, 255,0.3);
+    font-family: 'Righteous', cursive;;
+}
